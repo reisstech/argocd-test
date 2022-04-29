@@ -5,7 +5,7 @@ metadata:
   labels:
     app: hello-app-deployment
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: hello-app
@@ -31,7 +31,7 @@ metadata:
   labels:
     app: spin-app-deployment
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: spin-app
