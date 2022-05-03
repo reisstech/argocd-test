@@ -5,7 +5,7 @@ metadata:
   labels:
     app: hello-app-deployment
 spec:
-  replicas: 1
+  replicas: 5
   selector:
     matchLabels:
       app: hello-app
