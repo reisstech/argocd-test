@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-app-deployment
+  name: gitops-app
   labels:
-    app: hello-app-deployment
+    app: gitops-app
 spec:
   replicas: 7
   selector:
     matchLabels:
-      app: hello-app
+      app: gitops-app
   template:
     metadata:
       labels:
-        app: hello-app
+        app: gitops-app
     spec:
       containers:
-      - name: hello-app
-        image: gcr.io/google-samples/hello-app:1.0
+      - name: gitops-app
+        image: rodrigoreis90/spin-challenge:1.0
         imagePullPolicy: Always
 
         ports:

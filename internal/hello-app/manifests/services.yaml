@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello-app-service
+  name: gitops-service
 spec:
   selector:
-    app: hello-app
+    app: gitops-app
   ports:
     - protocol: TCP
       port: 80
