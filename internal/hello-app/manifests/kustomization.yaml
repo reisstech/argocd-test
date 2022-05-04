@@ -3,7 +3,7 @@ kind: Kustomization
 
 images:
 - name: rodrigoreis90/spin-challenge
-  newTag: 2.1.8
+  newTag: 7.6.4
 
 
 resources:
