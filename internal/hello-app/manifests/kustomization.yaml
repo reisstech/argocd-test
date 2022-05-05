@@ -3,6 +3,7 @@ kind: Kustomization
 
 images:
 - name: rodrigoreis90/spin-challenge
+  newTag: 6.8.6
 
 resources:
 - deployments.yaml

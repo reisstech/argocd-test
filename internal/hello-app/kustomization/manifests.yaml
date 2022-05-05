@@ -27,7 +27,7 @@ spec:
         app: gitops-app
     spec:
       containers:
-      - image: rodrigoreis90/spin-challenge:1.0
+      - image: rodrigoreis90/spin-challenge:6.8.6
         imagePullPolicy: Always
         name: gitops-app
         ports:
